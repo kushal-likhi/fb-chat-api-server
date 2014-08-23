@@ -28,7 +28,7 @@
         "request": "2.39.0",
         "jwt-simple": "0.2.0",
         "cli-table": "0.3.0",
-        "node-xmpp": "*"
+        "node-xmpp": "1.0.0-alpha2"
     },
     "devDependencies": {
         "grunt": "0.4.5",
