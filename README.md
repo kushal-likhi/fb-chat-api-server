@@ -8,4 +8,6 @@ http://<domain>/api/fb/chat/message/send?senderId=<IDOfSender>&receiverId=<Recei
 ```
 
 ##IMPORTANT##
-When requesting token then make sure you take the `chat` permissions.
+When requesting token then make sure you take the `chat` permission named as `xmpp_login` in scope parameters.
+
+Link: https://developers.facebook.com/docs/chat
