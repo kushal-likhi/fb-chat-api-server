@@ -1,3 +1,11 @@
-#MEAN MVC Boilerplate#
-This is a boilerplate which uses MEAN stack with other trivial features like socket.io, childProcesses, jobs etc. The boilerplate has a scalable MVC architecture with RAD features and environment support.
 
+##API##
+
+To send a message make a get call with query params:
+
+```
+http://<domain>/api/fb/chat/message/send?senderId=<IDOfSender>&receiverId=<ReceiverFBID>&accessToken=<accessTokenWithChatRights>&message=<message>&appId=<FB_APP_ID>
+```
+
+##IMPORTANT##
+When requesting token then make sure you take the `chat` permissions.

@@ -1,6 +1,6 @@
 exports.trigger = function (date) {
     //Run every 5 seconds
-    return (date.getSeconds() % 5 == 0);
+    return (date.getSeconds() % 55 == 0);
 };
 
 exports.task = function (callback) {

@@ -1,10 +1,10 @@
 {
     "common": {
         "port": 8080,
-        "appName": "Node PA Bot",
+        "appName": "FB API CHAT APP",
         "dataSource": {
             "mongo": {
-                "url": "mongodb://localhost:27017/pa-bot",
+                "url": "mongodb://localhost:27017/fb-chat-test",
                 "poolSize": "100",
                 "ignoreConnectionError": false
             },
@@ -17,7 +17,7 @@
             "fullFormat": "[%level][%name-%pid][%file:%line][%time] - %message",
             "minimalFormat": "[%name-%pid][%file:%line] - %message",
             "level": "trace",
-            "appNameToDisplayInLog": "CSM",
+            "appNameToDisplayInLog": "FCA",
             "showHidden": false,
             "stdout": {
                 "enabled": true
